@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- TailwindCSS v4 CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="gradient-bg min-h-screen">
+
+<header class="p-4 bg-white/80 backdrop-blur-md shadow-md fixed w-full top-0 z-50">
+    <nav class="flex justify-between items-center max-w-5xl mx-auto">
+        <h1 class="text-xl font-bold">MyPortfolio</h1>
+        <ul class="flex gap-6">
+            <li><a href="index.html" class="hover:text-blue-500">Home</a></li>
+            <li><a href="about.html" class="hover:text-blue-500">About Me</a></li>
+            <li><a href="gallery.html" class="hover:text-blue-500">Gallery</a></li>
+            <li><a href="contact.html" class="hover:text-blue-500">Contact Now</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="h-screen flex items-center justify-center bg-cover bg-center"
+         style="background-image: url('assets/img/hero.jpg');">
+    <div class="text-center bg-white/70 backdrop-blur-md p-10 rounded-xl fade-in shadow-xl">
+        <h2 class="text-4xl font-bold mb-4">Welcome to my portfolio</h2>
+        <p class="text-lg mb-6">Here you will find my jobs, skills and contacts</p>
+        <a href="gallery.html" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+            View My Work
+        </a>
+    </div>
+</section>
+
+</body>
+</html>

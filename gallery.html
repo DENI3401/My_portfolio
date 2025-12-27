@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="gradient-bg min-h-screen">
+
+<header class="p-4 bg-white/80 backdrop-blur-md shadow-md fixed w-full top-0 z-50">
+    <nav class="flex justify-between items-center max-w-5xl mx-auto">
+        <h1 class="text-xl font-bold">MyPortfolio</h1>
+        <ul class="flex gap-6">
+            <li><a href="index.html" class="hover:text-blue-500">Home</a></li>
+            <li><a href="about.html" class="hover:text-blue-500">About Me</a></li>
+            <li><a href="gallery.html" class="hover:text-blue-500">Gallery</a></li>
+            <li><a href="contact.html" class="hover:text-blue-500">Contact Now</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="max-w-6xl mx-auto p-6 mt-24 bg-white/10 backdrop-blur-md rounded-xl shadow-xl text-white animate-fadeIn">
+    <h2 class="text-3xl font-bold mb-8 text-center">Галерея робіт</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+        <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <a href="#img1">
+                <img src="assets/img/work1.png" class="w-full h-full object-cover">
+            </a>
+        </div>
+
+        <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <a href="#img2">
+                <img src="assets/img/work2.png" class="w-full h-full object-cover">
+            </a>
+        </div>
+
+        <div class="gallery-item overflow-hidden rounded-lg shadow-lg">
+            <a href="#img3">
+                <img src="assets/img/work3.png" class="w-full h-full object-cover">
+            </a>
+        </div>
+
+    </div>
+
+    <!-- ЛАЙТБОКСИ -->
+    <div id="img1" class="lightbox">
+        <a href="#">
+            <img src="assets/img/work1.png">
+        </a>
+    </div>
+
+    <div id="img2" class="lightbox">
+        <a href="#">
+            <img src="assets/img/work2.png">
+        </a>
+    </div>
+
+    <div id="img3" class="lightbox">
+        <a href="#">
+            <img src="assets/img/work3.png">
+        </a>
+    </div>
+
+</section>
+
+</body>
+</html>

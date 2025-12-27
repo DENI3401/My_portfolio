@@ -1,0 +1,104 @@
+/* Fade-in animation */
+.fade-in {
+    animation: fadeIn 1.2s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Slide-up animation */
+.animate-slide-up {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Hover scale for images */
+.hover-scale img {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover img {
+    transform: scale(1.05);
+}
+
+/* Gallery hover effects */
+.gallery-item img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.08);
+    filter: brightness(0.8);
+}
+
+/* Lightbox (mobile-friendly) */
+.lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.lightbox img {
+    width: 90%;
+    height: auto;
+    max-height: 80vh;
+    border-radius: 10px;
+}
+
+.lightbox:target {
+    display: flex;
+}
+
+/* Button animation */
+button {
+    animation: fadeIn 1s ease forwards;
+    opacity: 0;
+}
+
+/* FORM FIELDS — FULL UPGRADE */
+.input-field {
+    color: black;
+    caret-color: black;
+    background: white;
+    border: 2px solid black;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Icon inside input */
+.input-field svg {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+}
+
+/* Placeholder */
+.input-field input::placeholder,
+.input-field textarea::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease;
+}
+
+/* Fade placeholder on focus */
+.input-field input:focus::placeholder,
+.input-field textarea:focus::placeholder {
+    opacity: 0.3;
+}
+
+/* Gradient border on focus */
+.input-field:focus-within {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.6);
+    background: white;
+}
