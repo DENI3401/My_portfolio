@@ -1,4 +1,4 @@
-README – Projekt 4: Strona Portfolio (HTML / CSS / Tailwind)
+Projekt 4: Strona Portfolio (HTML / CSS / Tailwind)
 1. Opis projektu
 Projekt przedstawia responsywną stronę internetową typu portfolio, stworzoną w technologiach HTML, CSS oraz TailwindCSS.
 Strona prezentuje autora, jego prace oraz umożliwia kontakt poprzez dedykowaną podstronę.
