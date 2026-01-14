@@ -63,7 +63,7 @@ Projekt większy niż Lab 1
 6. Instrukcja uruchomienia
 Pobierz cały projekt.
 Upewnij się, że folder assets znajduje się obok plików HTML.
-Otwórz plik index.html w przeglądarce.
+Otwórz plik index.html w przeglądarce lub po linku https://deni3401.github.io/My_portfolio/index.html
 
 7. Autor
 Projekt wykonany przez: Denys Kononchuk
